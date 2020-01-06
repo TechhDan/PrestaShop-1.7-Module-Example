@@ -44,14 +44,14 @@ class PaymentExemplum extends PaymentModule
         $this->currencies_mode = 'checkbox';
         parent::__construct();
         $this->displayName = $this->getTranslator()->trans(
-            'PayPal Checkout',
+            'Payment Example',
             [],
-            'Modules.Paypalcheckout.Admin'
+            'Modules.PaymentExemplum.Admin'
         );
         $this->description = $this->getTranslator()->trans(
             'Accept payments via PayPal.',
             [],
-            'Modules.Paypalcheckout.Admin'
+            'Modules.PaymentExemplum.Admin'
         );
     }
 
