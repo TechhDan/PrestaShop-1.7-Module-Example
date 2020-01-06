@@ -1,0 +1,6 @@
+services:
+  _defaults:
+    public: true
+
+  prestashop.module.paymentexemplum.service:
+    class: PrestaShop\TechDesign\PaymentExemplum\Classes\Service

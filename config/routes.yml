@@ -1,0 +1,8 @@
+# http://localhost/prestashop/backoffice/index.php/modules/paymentexemplum/config
+admin_paymentexemplum_config:
+  path: /paymentexemplum/config
+  methods: [GET,POST]
+  defaults:
+    _controller: 'PrestaShop\TechDesign\PaymentExemplum\Controller\Admin\PaymentExemplumConfigController::configAction'
+    _legacy_controller: AdminPaymentExemplumConfig
+    _legacy_link: AdminPaymentExemplumConfig
